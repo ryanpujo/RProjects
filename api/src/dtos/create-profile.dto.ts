@@ -1,6 +1,8 @@
+import { Address } from '../models/User';
+
 export class CreateProfileDto {
   name?: string;
   gender?: string;
   picture?: string;
-  location?: string;
+  addresses?: Address[];
 }
